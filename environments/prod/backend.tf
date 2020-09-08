@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "test-monitoring-288106-terraform-estados"
     prefix = "env/prod"
   }
 }
